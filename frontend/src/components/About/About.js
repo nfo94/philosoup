@@ -11,13 +11,13 @@ export default function About() {
       <div>
         <div>
           <p>
-            {`We're focused on sharing thoughts and opinions about philosopers.`}
+            {`We're focused on sharing thoughts and opinions about philosophers.`}
           </p>
           <img src={ShareImage} alt="two people sharing thoughts" />
         </div>
         <div>
           <p>
-            {`You can catalogue and review the philosopers you've read and
+            {`You can catalogue and review the philosophers you've read and
           studied.`}
           </p>
           <img src={CatalogueImage} alt="person writing in a paper" />
