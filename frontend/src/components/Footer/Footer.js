@@ -1,12 +1,12 @@
 import React from "react";
-import { FooterStyle } from "./style";
+import "./style.css";
 
 export default function Footer() {
   return (
-    <FooterStyle>
+    <footer>
       <p>
         Made by <a href="https://github.com/nfo94">Natália Oliveira</a>
       </p>
-    </FooterStyle>
+    </footer>
   );
 }

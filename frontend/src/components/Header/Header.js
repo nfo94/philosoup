@@ -1,18 +1,23 @@
 import React from "react";
-import { HeaderStyle } from "./style";
+import { Link } from "react-router-dom";
+import "./style.css";
 
 export default function Header() {
   return (
-    <HeaderStyle>
+    <header>
       <div>
-        <a href="https://en.wikipedia.org/wiki/Philosophy" className="logo">
+        <Link to="/" className="logo">
           Philosoup
-        </a>
+        </Link>
       </div>
-      <div>
-        <button>Sign up</button>
-        <button>Log in</button>
+      <div className="header-btn">
+        <Link to="/signup">
+          <button>Sign up</button>
+        </Link>
+        <Link to="/login">
+          <button>Log in</button>
+        </Link>
       </div>
-    </HeaderStyle>
+    </header>
   );
 }

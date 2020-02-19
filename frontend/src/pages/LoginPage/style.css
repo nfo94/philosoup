@@ -1,0 +1,38 @@
+.login {
+  padding: 5rem 0.3rem;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2.5rem;
+}
+
+.login h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.login-form input {
+  border: none;
+  padding: 0.5rem;
+  background-color: #ecf0f1;
+}
+
+.btn-login {
+  background-color: #27ae60;
+  margin-top: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.4rem;
+}
+
+.btn-login:hover {
+  background-color: #8e44ad;
+  transition: 0.2s ease-in;
+}
